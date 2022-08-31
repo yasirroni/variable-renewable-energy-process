@@ -16,7 +16,7 @@ Collection of tools to process and interact with variable renewable energy data
 
     $A$ = Total solar panel area (m<sup>2</sup>)
 
-    $r$ = Solar panel efficiency (default value = 0.2)[<sup>1</sup>](https://www.energy.gov/eere/solar/crystalline-silicon-photovoltaics-research)
+    $r$ = Solar panel efficiency (default value = 0.2) [[1]][Energy Gov, 2022]
 
     $GHI$ = Global Horizontal Irradiation (Wh / m<sup>2</sup>)
 
@@ -56,13 +56,24 @@ Collection of tools to process and interact with variable renewable energy data
 
     $A$ = Total solar panel area (m<sup>2</sup>)
 
-    $r$ = Solar panel efficiency (default value = 0.2)[<sup>1</sup>](https://www.energy.gov/eere/solar/crystalline-silicon-photovoltaics-research)
+    $r$ = Solar panel efficiency (default value = 0.2) [[1]][Energy Gov, 2022]
 
     $GHI$ = Global Horizontal Irradiation (Wh / m<sup>2</sup>)
 
     $\mu$ = Coefficient for losses (range between 0.5 and 0.9, default value = 0.9)
 
     $\Delta t$ = Time step (hour)
+
+## Typical Value
+
+| Symbol    | Value         | Unit          | Note                                  |
+| --------- | ------------- | --------------| ------------------------------------- |
+| $A$       | 1.63350       | m<sup>2</sup> | [[2]][Osama Ayadi, 2022]              |
+| $r$       | 0.20          | -             | [[1]][Energy Gov, 2022]               |
+| $\mu$     | 0.90          | -             | -                                     |
+
+[Osama Ayadi, 2022]: https://doi.org/10.1016/j.egyr.2022.06.121
+[Energy Gov, 2022]: https://www.energy.gov/eere/solar/crystalline-silicon-photovoltaics-research
 
 <!-- 1. Solar installed capacity relation with area -->
 
