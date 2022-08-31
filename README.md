@@ -36,13 +36,14 @@ Collection of tools to process and interact with variable renewable energy data
 
     $\Delta t$ = Time step (hour)
 
-<!-- TODO: how to get installed capacity -->
-<!-- TODO: read https://www.sciencedirect.com/science/article/pii/S2352484722012288 -->
-
 1. Solar per unit output
 
     $$
-    cf = P / \bar{P}
+    \begin{aligned}
+    cf &= P / \bar{P}
+    \\
+    &= \frac{A * r * GHI * \mu}{\Delta t * \bar{P}}
+    \end{aligned}
     $$
 
     where,
@@ -52,3 +53,18 @@ Collection of tools to process and interact with variable renewable energy data
     $P$ = Solar panel power output (W)
 
     $\bar{P}$ = Maximum power output of the installed solar panel (Wp)
+
+    $A$ = Total solar panel area (m<sup>2</sup>)
+
+    $r$ = Solar panel efficiency (default value = 0.2)[<sup>1</sup>](https://www.energy.gov/eere/solar/crystalline-silicon-photovoltaics-research)
+
+    $GHI$ = Global Horizontal Irradiation (Wh / m<sup>2</sup>)
+
+    $\mu$ = Coefficient for losses (range between 0.5 and 0.9, default value = 0.9)
+
+    $\Delta t$ = Time step (hour)
+
+<!-- 1. Solar installed capacity relation with area -->
+
+<!-- TODO: how to get installed capacity -->
+<!-- TODO: read https://www.sciencedirect.com/science/article/pii/S2352484722012288 -->
