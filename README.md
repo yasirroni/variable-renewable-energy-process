@@ -75,4 +75,17 @@ Collection of tools to process and interact with variable renewable energy data
 
 [Osama Ayadi, 2022]: https://doi.org/10.1016/j.egyr.2022.06.12
 
-<!-- NOTE: this markdown can be rendered using `pandoc README.md -o README.pdf`-->
+## Contributing
+
+1. Git FIlter
+
+    We use [`nb-clean`](https://github.com/srstevenson/nb-clean) to clean notebooks metadata.
+
+    ```shell
+    pip install nb-clean
+    nb-clean add-filter --preserve-cell-outputs
+    ```
+
+1. Render README.md
+
+    The README.md can be rendered using `pandoc README.md -o README.pdf`
