@@ -80,7 +80,7 @@ Collection of tools to process and interact with variable renewable energy data
 | $r$       | 0.159         | -                 | [[1]][Osama Ayadi, 2022]              |
 | $\mu$     | 0.90          | -                 | -                                     |
 | $\bar{P}$ | 260           | W                 | [[1]][Osama Ayadi, 2022]              |
-| $K$       | 0.00089905    | m<sup>2</sup>/Wh  | -                                     |
+| $K$       | 0.000899053   | m<sup>2</sup>/Wh  | -                                     |
 
 [Osama Ayadi, 2022]: https://doi.org/10.1016/j.egyr.2022.06.121
 
