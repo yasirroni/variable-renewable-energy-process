@@ -42,7 +42,13 @@ Collection of tools to process and interact with variable renewable energy data
     \begin{aligned}
     cf &= P / \bar{P}
     \\
-    &= \frac{A * r * GHI * \mu}{\Delta t * \bar{P}}
+       &= \frac{A * r * GHI * \mu}{\Delta t * \bar{P}}
+    \\
+       &= GHI * \frac{A * r * \mu}{\Delta t * \bar{P}}
+    \\
+       &= GHI * K
+    \\
+    K  &= \frac{A * r * \mu}{\Delta t * \bar{P}}
     \end{aligned}
     $$
 
@@ -63,6 +69,8 @@ Collection of tools to process and interact with variable renewable energy data
     $\mu$ = Coefficient for losses (range between 0.5 and 0.9, default value = 0.9)
 
     $\Delta t$ = Time step (hour)
+
+    $K$ = Coefficient factor constant (constant parameter based on solar panel m<sup>2</sup>/Wh)
 
 ## Typical Value
 
