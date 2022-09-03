@@ -1,8 +1,22 @@
 # variable-renewable-energy-process
 
-Collection of tools to process and interact with variable renewable energy data
+Collection of tools to process and interact with variable renewable energy data.
+
+## Data sources
+
+Historical data: <https://power.larc.nasa.gov/data-access-viewer/>
+
+Photovoltaic GIS map: <https://globalsolaratlas.info/>
+
+Wind GIS map: <https://globalwindatlas.info/>
+
+NOTE:
+
+1. Use Mean Power Density instead of Mean Wind Speed in locating the best wind location.
 
 ## Photovoltaic
+
+### Photovoltaic Equations
 
 1. Solar energy output
 
@@ -72,7 +86,7 @@ Collection of tools to process and interact with variable renewable energy data
 
     $K$ = Coefficient factor constant (constant parameter based on solar panel m<sup>2</sup>/Wh)
 
-## Typical Value
+### Photovoltaic Typical Value
 
 | Symbol    | Value         | Unit              | Note                                  |
 | --------- | ------------- | ------------------| ------------------------------------- |
@@ -83,6 +97,18 @@ Collection of tools to process and interact with variable renewable energy data
 | $K$       | 0.000899053   | m<sup>2</sup>/Wh  | -                                     |
 
 [Osama Ayadi, 2022]: https://doi.org/10.1016/j.egyr.2022.06.121
+
+## Wind
+
+### Wind Equations
+
+1. 
+
+### Wind Typical Value
+
+| Symbol    | Value         | Unit              | Note                                  |
+| --------- | ------------- | ------------------| ------------------------------------- |
+|           |               |                   |                                       |
 
 ## Contributing
 
