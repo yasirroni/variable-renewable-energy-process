@@ -102,7 +102,9 @@ NOTE:
 
 ### Wind Equations
 
-1. 
+1. Wind power output
+
+...
 
 ### Wind Typical Value
 
