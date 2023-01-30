@@ -34,7 +34,7 @@ $r$ = Solar panel efficiency (default value = 0.159) [[1]][Osama Ayadi, 2022]
 
 $GHI$ = Global Horizontal Irradiation (Wh / m<sup>2</sup>)
 
-$\mu$ = Coefficient for losses (range between 0.5 and 0.9, default value = 0.9)
+$\mu$ = Inverter efficiency (range between 0.92 and 0.99, default value 0.96) [[2]][Aron P. Dobos, 2014]
 
 #### Photovoltaic power output
 
@@ -80,7 +80,7 @@ $r$ = Solar panel efficiency (default value = 0.159) [[1]][Osama Ayadi, 2022]
 
 $GHI$ = Global Horizontal Irradiation (Wh / m<sup>2</sup>)
 
-$\mu$ = Coefficient for losses (range between 0.5 and 0.9, default value = 0.9)
+$\mu$ = Inverter efficiency (range between 0.92 and 0.99, default value 0.96) [[2]][Aron P. Dobos, 2014]
 
 $\Delta t$ = Time step (hour)
 
@@ -92,11 +92,12 @@ $K$ = Coefficient factor constant (constant parameter based on solar panel m<sup
 | --------- | ------------- | ------------------| ------------------------------------- |
 | $A$       | 1.63350       | m<sup>2</sup>     | [[1]][Osama Ayadi, 2022]              |
 | $r$       | 0.159         | -                 | [[1]][Osama Ayadi, 2022]              |
-| $\mu$     | 0.90          | -                 | -                                     |
+| $\mu$     | 0.96          | -                 | [[2]][Aron P. Dobos, 2014]            |
 | $\bar{P}$ | 260           | W                 | [[1]][Osama Ayadi, 2022]              |
-| $K$       | 0.000899053   | m<sup>2</sup>/Wh  | -                                     |
+| $K$       | 0.000979      | m<sup>2</sup>/Wh  | -                                     |
 
 [Osama Ayadi, 2022]: https://doi.org/10.1016/j.egyr.2022.06.121
+[Aron P. Dobos, 2014]: https://www.nrel.gov/docs/fy14osti/62641.pdf
 
 ## Wind
 
